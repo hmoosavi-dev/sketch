@@ -1,0 +1,38 @@
+body {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+.wrap {
+  width: 700px;
+  height: 700px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: ; */
+  /* align-items: ; */
+}
+.part {
+  /* --pixelSize: 60px; */
+  background-color: pink;
+  width: var(--pixelSize);
+  height: var(--pixelSize);
+}
+.part:hover {
+  background-color: brown;
+  cursor: grab;
+}
+.btn {
+  margin: 3rem;
+  padding: 1rem 2rem;
+}
+.touched {
+  background-color: blue;
+}
